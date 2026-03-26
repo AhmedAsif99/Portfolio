@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    background-color: black;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 99;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+   z-index: 999;
+   border-bottom: 2px solid white;
+}
+
+.left img{
+      height: 130px;
+}
+
+.mid ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.mid ul li{
+    list-style: none;
+}
+
+.mid ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0px 30px;
+    color: white;
+}
+
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+.image img{
+   width: 100%;
+   height: 100vh;
+}
+
+.text{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    left: 38%;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.text h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    transform: translateY(110px);
+    
+}
+
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    z-index: 95;
+}
+
+.box{
+    position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10% 15%;
+
+}
+
+
+
+.box1{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 10px 40px rgba(36, 32, 32, 0.9);
+    overflow: hidden;
+
+}
+
+.box1 img{
+    width: 292px;
+    transform: translateX(-100%);
+}
+
+.box1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.icon i{
+    font-size: 40px;
+    color: yellow;
+}
+
+h3{
+    color: white;
+}
+
+
+.box2{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0px 10px 40px rgba(36, 32, 32, 0.9);
+    overflow: hidden;
+
+}
+
+.box2 img{
+    width: 292px;
+    transform: translateY(-100%);
+}
+
+.box2 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 43px;
+    margin-left: 10px;
+}
+
+.box3{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    box-shadow: 0px 10px 40px rgba(36, 32, 32, 0.9);
+overflow: hidden;
+}
+
+.box3 img{
+    width: 292px;
+    transform: translateX(100%);
+}
+
+.box3 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 40px;
+    margin-left: 10px;
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    z-index: 80;
+}
+
+.tax{
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.tax h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    transform: translateY(-200%);
+    
+}
+
+.tax p{
+    width: 50%;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: 50px;
+    transform: translateY(200%);
+}
+
+.page4{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    z-index: 70;
+}
+
+.boxes{
+
+     position: absolute;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 100px;
+     gap: 30px;
+     
+   
+     
+}
+
+.boxes1{
+   position: relative;
+    width: 220px;
+    height: 400px;
+    padding: 0px 20px;
+    margin-left: 100px;
+    overflow: hidden;
+    
+}
+
+.boxes1 img{
+    width: 220px;
+    height: 400px;
+    position: absolute;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px rgba(36, 32, 32, 0.9);
+    transform: translateY(50%);
+    
+}
+
+.bg{
+    position: absolute;
+    width: 220px;
+    height: 400px;
+    background-color: black;
+    opacity: .3;
+    border-radius: 30px;
+}
+.boxes1 h1{
+     position: absolute;
+     color: white;
+     text-transform: uppercase;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     bottom: 15%;
+     margin-left: 20px;
+}
+
+.boxes2{
+    position: relative;
+     width: 220px;
+     height: 400px;
+     
+     padding: 0px 20px;
+     margin-left: 100px;
+     margin-top: 100px;
+     overflow: hidden;
+ }
+ 
+ .boxes2 img{
+     width: 220px;
+     height: 400px;
+     position: absolute;
+     border-radius: 30px;
+     box-shadow: 0px 10px 40px rgba(36, 32, 32, 0.9);
+     transform: translateY(50%);
+ }
+
+ .boxes2 h1{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 15%;
+    margin-left: 20px;
+}
+
+.boxes3{
+    position: relative;
+     width: 220px;
+     height: 400px;
+    
+     padding: 0px 20px;
+     margin-top: 200px;
+     margin-left: 100px;
+     overflow: hidden;
+ }
+ 
+ .boxes3 img{
+     width: 220px;
+     height: 400px;
+     position: absolute;
+     border-radius: 30px;
+     box-shadow: 0px 10px 40px rgba(36, 32, 32, 0.9);
+     transform: translateY(50%);
+ }
+
+ .boxes3 h1{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 15%;
+    margin-left: 20px;
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 60;
+}
+
+.tex{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pf1{
+ text-align: center;
+ padding: 0px 70px;
+}
+.pf1 .texts{
+    color: white;
+}
+
+.texts h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.texts h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    opacity: .8;
+}
+
+.imago{
+    display: flex;
+  
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.imago h1{
+    color: white;
+    letter-spacing: 10px;
+ 
+}
+.imago img{
+    height: 70px;
+    filter: invert(100%);
+
+}
+
+.page6{
+    position: relative;
+     width: 100%;
+     height: 100vh;
+     background-color: red;
+     z-index: 50;
+
+}
+
+.imagi img{
+    width: 100%;
+    height: 100vh;
+}
+
+.pa{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+    text-align: center;
+}
+
+.pa h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+  
+}
+
+#pp{
+    position: absolute;
+    font-size: 30px;
+    top: 55%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    color: white;
+    opacity: .7;
+    transform: translateX(200%);
+
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    border: 2px solid white;
+}
+
+.lefto{
+    width: 20%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+.lefto h1{
+    padding: 20px 20px;
+}
+.lefto p{
+    padding: 0px 20px;
+}
+
+.righto{
+    width: 80%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    padding: 20px 30px;
+   
+}
+.about{
+    margin-left: 100px;
+}
+.about h2{
+    opacity: .8;
+    margin-top: 10px;
+    font-size: 20px;
+    
+
+}
+
+.company h2{
+    opacity: .8;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.support h2{
+    opacity: .8;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.management h2{
+    opacity: .8;
+    margin-top: 10px;
+    font-size: 20px;
+}

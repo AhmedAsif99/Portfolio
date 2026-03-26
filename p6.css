@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.left-nav img{
+    height: 60px;
+    padding: 0px 12px;
+
+}
+
+.mid-nav{
+    display: flex;
+
+}
+
+.mid-nav li{
+    list-style: none;
+}
+
+.mid-nav a{
+    text-decoration: none;
+    padding: 0px 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.sub-mid-nav{
+    position: absolute;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 5%;
+    display: none;
+
+    
+}
+
+.sub-mid-nav a{
+    display: flex;
+    border-bottom: 4px double black;
+    padding: 10px 2px;
+}
+
+.sub-mid-nav a:nth-child(3){
+    border-bottom: none;
+}
+
+.mid-nav:hover .sub-mid-nav{
+    display: block;
+}
+
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-nav h4{
+    padding: 0px 20px;
+    font-size: 20px ;
+    text-transform: uppercase;
+}
+
+.right-nav button{
+    padding: 5px 5px;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.text h1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text span{
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 50px;
+    margin: 0px 10px;
+    
+}
+
+.container img{
+    position: absolute;
+    top: 5%;
+    z-index: -1;
+
+}
+
+.container img:nth-child(3){
+    height: 200px;
+    position: absolute;
+    right: 12%;
+    top: 45%;
+    
+}
+
+
+.container img:nth-child(4){
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 55%;
+    left: 27%;
+    z-index: -1;
+    
+}
+
+.btn{
+    text-align: center;
+    margin-top: 8%;
+    margin-right: 60px;
+
+}
+
+.btn button{
+    position: absolute;
+    padding: 10px 20px;
+    bottom: 25%;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+   
+}
