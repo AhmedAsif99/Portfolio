@@ -76,8 +76,16 @@ nav {
 }
 
 .logo-txt {
+    cursor: pointer;
     margin-left: 10px;
 }
+
+
+.logo-txt a{
+  text-decoration: none;
+    color: white;
+}
+
 
 .logo-txt h1 {
     color: white;
